@@ -1,0 +1,39 @@
+body {
+    background: LightPink;
+}
+#canvas {
+  width : 484px;
+  height: 473px;
+  margin: 0 auto;
+  border: 12px solid black;
+  margin-bottom: 10px;
+  border-radius: 2%;
+
+}
+
+#second-container {
+  width: 484px;
+  height: 110px;
+  margin: 0 auto;
+}
+
+#palette {
+  width: 353px;
+  height: 100px;
+  float: left;
+}
+
+.colors-div {
+  border-radius: 50%;
+  margin-right: 2.5px;
+  margin-bottom: 2.5px;
+}
+
+.actual-color {
+  background: white;
+  width: 97px;
+  height: 107px;
+  border: 2px solid black;
+  float: right;
+  border-radius: 5%;
+}
