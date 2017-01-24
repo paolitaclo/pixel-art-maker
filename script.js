@@ -34,7 +34,7 @@ palette.addEventListener('click', function (event) {
     colorSelected = event.target.style.background;
     actualColor.style.background = colorSelected;
   }
-  console.log('event', event.target);
+  // console.log('event', event.target);
 });
 
 
@@ -46,5 +46,10 @@ canvas.addEventListener('click', function (event) {
   console.log('event', event);
 });
 
+canvas.addEventListener('mouseover', function (event) {
+  if (event.buttons === 1) {
+    event.target.style.background = colorSelected;
+  }
+})
 
 //
